@@ -1,5 +1,4 @@
 const fastmailUrl = 'https://api.fastmail.com/jmap/session';
-const fastmailToken = 'fmu1-27f940d6-9c763ba60175497094397515b0eee1ed-0-840ca6335c607e86b2c3b6d1960e6ad3';
 let headers = {};
 
 const draftResponse = async (apiUrl, accountId, draftId, identityId, input) => {
